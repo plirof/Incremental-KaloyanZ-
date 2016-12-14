@@ -19,7 +19,7 @@ var upgrades = {
 		name: "Ικανότεροι Διαφημιστές",
 		cost: 200,
 		purchased: false,
-		tooltip: "Ικανότεροι Διαφημιστές \nCost: 200 Cookies \nRequires at least 10 cursors. \nDoubles the cookies gained from each cursor and your clicks!",
+		tooltip: "Ικανότεροι Διαφημιστές \nΚόστος: 200 Επισκέπτες \nΑπαιτεί τουλάχιστον 10 Διαφημιστές. \nDoubles the cookies gained from each cursor and your clicks!",
 		prereq: 10
 	},
 	cursorUpgrade2: {
@@ -27,7 +27,7 @@ var upgrades = {
 		name: "Διεθνής Διαφημιστές",
 		cost: 2500,
 		purchased: false,
-		tooltip: "Διεθνής Διαφημιστές \nCost: 2500 Cookies \nRequires at least 25 cursors. \nDoubles the cookies gained from each cursor and your clicks!",
+		tooltip: "Διεθνής Διαφημιστές \nΚόστος: 2500 Επισκέπτες \nΑπαιτεί τουλάχιστον 25 Διαφημιστές. \nDoubles the cookies gained from each cursor and your clicks!",
 		prereq: 25
 	},
 	factoryUpgrade1: {
@@ -35,7 +35,7 @@ var upgrades = {
 		name: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές εκπομπές",
 		cost: 3500,
 		purchased: false,
-		tooltip: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές εκπομπές \nCost: 3500 Cookies \nRequires at least 10 factories. \nDoubles the cookies gained from each factory!",
+		tooltip: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές εκπομπές \nΚόστος: 3500 Επισκέπτες \nΑπαιτεί τουλάχιστον 10 Διαφήμισεις στο ραδιόφωνο. \nΔιπλασιάζει τους επισκέπτες από κάθε διαφήμιση!",
 		prereq: 10
 	},
 	factoryUpgrade2: {
@@ -43,7 +43,7 @@ var upgrades = {
 		name: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές ώρες",
 		cost: 12000,
 		purchased: false,
-		tooltip: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές ώρες \nCost: 12000 Cookies \nRequires at least 25 factories. \nDoubles the cookies gained from each factory!",
+		tooltip: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές ώρες \nΚόστος: 12000 Επισκέπτες \nΑπαιτεί τουλάχιστον 25 Διαφήμισεις στο ραδιόφωνο. \nΔιπλασιάζει τους επισκέπτες από κάθε διαφήμιση!",
 		prereq: 25
 	},
 	mineUpgrade1: {
@@ -51,7 +51,7 @@ var upgrades = {
 		name: "Τηλεόραση - πρόσληψη διάσημου",
 		cost: 150000,
 		purchased: false,
-		tooltip: "Τηλεόραση - πρόσληψη διάσημου \nCost: 150000 Cookies \nRequires at least 10 mines. \nCookies mined with these pickaxes are extra chocolatey! Each mine produces 100 more cookies at a time!",
+		tooltip: "Τηλεόραση - πρόσληψη διάσημου \nΚόστος: 150000 Επισκέπτες \nΑπαιτεί τουλάχιστον 10 Διαφήμισεις στην τηλεόραση. \nCookies mined with these pickaxes are extra chocolatey! Each mine produces 100 more cookies at a time!",
 		prereq: 10
 	},
 	mineUpgrade2: {
@@ -59,7 +59,7 @@ var upgrades = {
 		name: "Τηλεοπτική καμπάνια",
 		cost: 2000000,
 		purchased: false,
-		tooltip: "Τηλεοπτική καμπάνια \nCost: 2000000 Cookies \nRequires at least 25 mines. \nCookies drilled with these are infused with extra chocolatey goodness! Each mine produces 150 more cookies at a time!",
+		tooltip: "Τηλεοπτική καμπάνια \nΚόστος: 2000000 Επισκέπτες \nΑπαιτεί τουλάχιστον 25 Διαφήμισεις στην τηλεόραση. \nCookies drilled with these are infused with extra chocolatey goodness! Each mine produces 150 more cookies at a time!",
 		prereq: 25
 	}
 	
