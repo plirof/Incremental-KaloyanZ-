@@ -172,7 +172,7 @@ function buyUpgrade(upgradeName)
 {
 	
 	switch (upgradeName){
-		case "Reinforced Fingers":
+		case "Ικανότεροι Διαφημιστές":
 			var upgr = upgrades.cursorUpgrade1;
 			if(cookies >= upgr.cost && upgr.purchased == false && buildings.cursors >= upgr.prereq)
 			{
