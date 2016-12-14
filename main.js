@@ -184,7 +184,7 @@ function buyUpgrade(upgradeName)
 			        document.getElementById('cookies').innerHTML = prettify(cookies);
 			};
 			break;
-		case "Ambidextrous":
+		case "Διεθνής Διαφημιστές":
 			var upgr = upgrades.cursorUpgrade2;
 			if(cookies >= upgr.cost && upgr.purchased == false && buildings.cursors >= upgr.prereq)
 			{
@@ -196,7 +196,7 @@ function buyUpgrade(upgradeName)
 			        document.getElementById('cookies').innerHTML = prettify(cookies);
 			};
 			break;
-		case "Safety Regulations":
+		case "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές εκπομπές":
 			var upgr = upgrades.factoryUpgrade1;
 			if(cookies >= upgr.cost && upgr.purchased == false && buildings.factories >= upgr.prereq)
 			{
@@ -208,7 +208,7 @@ function buyUpgrade(upgradeName)
 			        document.getElementById('cookies').innerHTML = prettify(cookies);
 			};
 			break;
-		case "Conveyor Belts":
+		case "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές ώρες":
 			var upgr = upgrades.factoryUpgrade2;
 			if(cookies >= upgr.cost && upgr.purchased == false && buildings.factories >= upgr.prereq)
 			{
@@ -220,7 +220,7 @@ function buyUpgrade(upgradeName)
 			        document.getElementById('cookies').innerHTML = prettify(cookies);
 			};
 			break;
-		case "Chocolate Pickaxes":
+		case "Τηλεόραση - πρόσληψη διάσημου":
 			var upgr = upgrades.mineUpgrade1;
 			if(cookies >= upgr.cost && upgr.purchased == false && buildings.mines >= upgr.prereq)
 			{
@@ -232,7 +232,7 @@ function buyUpgrade(upgradeName)
 			        document.getElementById('cookies').innerHTML = prettify(cookies);
 			};
 			break;
-		case "Chocolate Drills":
+		case "Τηλεοπτική καμπάνια":
 			var upgr = upgrades.mineUpgrade2;
 			if(cookies >= upgr.cost && upgr.purchased == false && buildings.mines >= upgr.prereq)
 			{
