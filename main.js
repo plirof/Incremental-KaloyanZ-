@@ -16,50 +16,50 @@ var buildings = {
 var upgrades = {
 	cursorUpgrade1: {
 		tag: "cursorUpgrade1",
-		name: "Reinforced Fingers",
+		name: "Ικανότεροι Διαφημιστές",
 		cost: 200,
 		purchased: false,
-		tooltip: "Reinforced Fingers \nCost: 200 Cookies \nRequires at least 10 cursors. \nDoubles the cookies gained from each cursor and your clicks!",
+		tooltip: "Ικανότεροι Διαφημιστές \nCost: 200 Cookies \nRequires at least 10 cursors. \nDoubles the cookies gained from each cursor and your clicks!",
 		prereq: 10
 	},
 	cursorUpgrade2: {
 		tag: "cursorUpgrade2",
-		name: "Ambidextrous",
+		name: "Διεθνής Διαφημιστές",
 		cost: 2500,
 		purchased: false,
-		tooltip: "Ambidextrous \nCost: 2500 Cookies \nRequires at least 25 cursors. \nDoubles the cookies gained from each cursor and your clicks!",
+		tooltip: "Διεθνής Διαφημιστές \nCost: 2500 Cookies \nRequires at least 25 cursors. \nDoubles the cookies gained from each cursor and your clicks!",
 		prereq: 25
 	},
 	factoryUpgrade1: {
 		tag: "factoryUpgrade1",
-		name: "Safety Regulations",
+		name: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές εκπομπές",
 		cost: 3500,
 		purchased: false,
-		tooltip: "Safety Regulations \nCost: 3500 Cookies \nRequires at least 10 factories. \nDoubles the cookies gained from each factory!",
+		tooltip: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές εκπομπές \nCost: 3500 Cookies \nRequires at least 10 factories. \nDoubles the cookies gained from each factory!",
 		prereq: 10
 	},
 	factoryUpgrade2: {
 		tag: "factoryUpgrade2",
-		name: "Conveyor Belts",
+		name: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές ώρες",
 		cost: 12000,
 		purchased: false,
-		tooltip: "Conveyor Belts \nCost: 12000 Cookies \nRequires at least 25 factories. \nDoubles the cookies gained from each factory!",
+		tooltip: "Ραδιοφωνο - Διαφήμηση σε πιο εμπορικές ώρες \nCost: 12000 Cookies \nRequires at least 25 factories. \nDoubles the cookies gained from each factory!",
 		prereq: 25
 	},
 	mineUpgrade1: {
 		tag: "mineUpgrade1",
-		name: "Chocolate Pickaxes",
+		name: "Τηλεόραση - πρόσληψη διάσημου",
 		cost: 150000,
 		purchased: false,
-		tooltip: "Chocolate Pickaxes \nCost: 150000 Cookies \nRequires at least 10 mines. \nCookies mined with these pickaxes are extra chocolatey! Each mine produces 100 more cookies at a time!",
+		tooltip: "Τηλεόραση - πρόσληψη διάσημου \nCost: 150000 Cookies \nRequires at least 10 mines. \nCookies mined with these pickaxes are extra chocolatey! Each mine produces 100 more cookies at a time!",
 		prereq: 10
 	},
 	mineUpgrade2: {
 		tag: "mineUpgrade2",
-		name: "Chocolate Drills",
+		name: "Τηλεοπτική καμπάνια",
 		cost: 2000000,
 		purchased: false,
-		tooltip: "Chocolate Drills \nCost: 2000000 Cookies \nRequires at least 25 mines. \nCookies drilled with these are infused with extra chocolatey goodness! Each mine produces 150 more cookies at a time!",
+		tooltip: "Τηλεοπτική καμπάνια \nCost: 2000000 Cookies \nRequires at least 25 mines. \nCookies drilled with these are infused with extra chocolatey goodness! Each mine produces 150 more cookies at a time!",
 		prereq: 25
 	}
 	
